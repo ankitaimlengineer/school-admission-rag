@@ -110,7 +110,7 @@ school-admission-rag/
 ## Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/ankitaimlengineer/school-admission-rag.git
 cd school-admission-rag
 ```
 
@@ -138,7 +138,7 @@ source venv/bin/activate
 
 ```bash
 pip install -r requirements.txt
-```
+pip install streamlit langchain langchain-google-genai langchain-community chromadb python-dotenv pypdf docx2txt
 
 ---
 
@@ -172,18 +172,22 @@ streamlit run app.py
 
 ---
 
-# 📸 Screenshots
-
-Add application screenshots in the `screenshots` folder.
-
-Example:
-
-- Home Page
-- Fee Query
-- Seat Availability Query
-- Transport Query
 
 ---
+
+### 3. Screenshots section માં actual images મૂકો
+
+```md
+# 📸 Screenshots
+
+## Home Screen
+![Home](screenshots/home.png)
+
+## Fees Query
+![Fees](screenshots/fees_query.png)
+
+## Seat Availability Query
+![Seats](screenshots/seat_query.png)
 
 # 🔍 Example Queries
 
@@ -260,6 +264,9 @@ AI Internship Assessment Project
 
 ## Architecture Diagram
 
+
+![Architecture](screenshots/architecture_diagram.png)
+
 ```mermaid
 flowchart TD
 
@@ -287,3 +294,13 @@ J --> K[Final Response]
 
 K --> L[Source References]
 ```
+
+
+# 📜 License
+
+This project was developed as part of an AI Internship Assessment.
+
+
+# ✅ Project Status
+
+Completed and ready for deployment.
