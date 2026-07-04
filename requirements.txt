@@ -9,7 +9,6 @@ pypdf
 python-docx
 pymupdf
 
-sentence-transformers
 
 python-dotenv
 
